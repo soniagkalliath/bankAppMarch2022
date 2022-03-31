@@ -1,0 +1,24 @@
+                                Angular - Front End 
+                            ----------------------------
+
+
+                                Angular - Commands
+                            -------------------------
+
+        1. to create Angular project - ng new project_name / ng new project_name --routing
+
+        2. to run a Angular project - ng serve / ng serve --open
+
+        3. to create component - ng g c component_name
+
+
+
+
+                                Angular Basics
+
+                            ----------------------
+
+
+            1. Modules - to import libraries - root Module - AppModule
+
+            2. Component - to get {HTML, CSS, TS}
