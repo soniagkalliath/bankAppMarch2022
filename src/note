@@ -22,3 +22,21 @@
             1. Modules - to import libraries - root Module - AppModule
 
             2. Component - to get {HTML, CSS, TS}
+
+            3. Data Binding - data shairing between ts and html 
+
+                3.1 One way Binding - data shairing only in one direction
+
+                    3.1.1 component to view 
+
+                        3.1.1.1 String Interpolation - syntax: {{variable-name}}
+
+                        3.1.1.2 Property Binding - syntax: [attribute-name]="Property-name"
+
+                    3.1.2 View to Component
+
+                         3.1.2.1 Event Binding - syntax: (event-name)="function-name()"
+
+                         3.1.2.2 Event Binding using $event - 
+                                syntax: (event-name)="function-name($event)"
+
