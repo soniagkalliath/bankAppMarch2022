@@ -42,5 +42,8 @@
 
                          3.1.2.3 Template referencing variable - syntax: #referencing-variable-name 
 
-                3.2 Two way Binding - data shairing in both direction
+                3.2 Two way Binding - data shairing in both direction   
+
+                    3.2.1 Binding using ngModel - import FormsModule in AppModule
+                        - syntax : [(ngModel)]="variable-name" , variable-name should defing in ts file
 
