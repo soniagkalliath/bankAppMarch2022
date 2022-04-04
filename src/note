@@ -40,3 +40,7 @@
                          3.1.2.2 Event Binding using $event - 
                                 syntax: (event-name)="function-name($event)"
 
+                         3.1.2.3 Template referencing variable - syntax: #referencing-variable-name 
+
+                3.2 Two way Binding - data shairing in both direction
+

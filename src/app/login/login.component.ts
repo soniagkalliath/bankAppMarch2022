@@ -34,29 +34,56 @@ console.log(this.acno)
     console.log(this.pswd)
       }
 
-//login - using event binding
-  login(){
-   //user entered acno n pswd
-   var acno = this.acno
-   var pswd = this.pswd
+// //login - using event binding
+//   login(){
+//    //user entered acno n pswd
+//    var acno = this.acno
+//    var pswd = this.pswd
 
-   let database = this.database
+//    let database = this.database
 
-   if(acno in database){
+//    if(acno in database){
 
-    if(pswd == database[acno]["password"]){
+//     if(pswd == database[acno]["password"]){
 
-      alert("Login successful!!!!")
-    }
-    else{
-      alert("Incorrect password!!!")
-    }
+//       alert("Login successful!!!!")
+//     }
+//     else{
+//       alert("Incorrect password!!!")
+//     }
 
+//    }
+//    else{
+//      alert("User doesnot exist!!!!")
+//    }
+//   }
+
+//login - using template refencing variable
+login(a:any,p:any){
+
+  console.log(a.value)
+
+  //user entered acno n pswd
+  var acno = a.value
+  var pswd = p.value
+
+  let database = this.database
+
+  if(acno in database){
+
+   if(pswd == database[acno]["password"]){
+
+     alert("Login successful!!!!")
    }
    else{
-     alert("User doesnot exist!!!!")
+     alert("Incorrect password!!!")
    }
+
   }
+  else{
+    alert("User doesnot exist!!!!")
+  }
+ }
 
 
 }
