@@ -47,3 +47,11 @@
                     3.2.1 Binding using ngModel - import FormsModule in AppModule
                         - syntax : [(ngModel)]="variable-name" , variable-name should defing in ts file
 
+            4. ngSubmit - to submit the form , syntax: (ngSubmit)="function-call()"
+
+            5. set path for an html page - app.routing.module.ts , syntax:{path,component}
+
+            6. Dependency Injection - to share data between dependent classes
+
+            
+
