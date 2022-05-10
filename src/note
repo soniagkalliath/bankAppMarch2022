@@ -1,5 +1,5 @@
-                                Angular - Front End 
-                            ----------------------------
+                            Angular - Front End Technology
+                        --------------------------------------
 
 
                                 Angular - Commands
@@ -11,17 +11,23 @@
 
         3. to create component - ng g c component_name
 
+        4. to create service - ng g s service_name
+
+        5. to create directive - ng g d directive_name
+
+        6. to create prodution/build - ng build --prod
 
 
 
-                                Angular Basics
 
-                            ----------------------
+                                Angular Basics Concepts
+
+                            ------------------------------
 
 
             1. Modules - to import libraries - root Module - AppModule
 
-            2. Component - to get {HTML, CSS, TS}
+            2. Component - to get {HTML, CSS, TS} - root component - AppCompenent
 
             3. Data Binding - data shairing between ts and html 
 
@@ -52,6 +58,74 @@
             5. set path for an html page - app.routing.module.ts , syntax:{path,component}
 
             6. Dependency Injection - to share data between dependent classes
+
+            7. Angular Services - to hold redendant data
+
+            8. Angular Forms- 
+
+                8.1 Template driven Forms - First design html file
+
+                8.2 Model Driven Forms - First create model in .ts file
+
+                    8.2.1 Reactive Forms - Add Validations to the forms 
+                        - import ReactiveFormsModule in AppModule, {form group, from Array, form Control}
+
+                        8.2.1.1 Validators 
+
+            9. Angular Directives - To manipulate DOM
+
+                9.1 Component Directives 
+
+                9.2 Structural Directives - add/remove elements from DOM - syntax: *directive-name="condition"
+
+                    9.2.1 ngIf - syntax : *ngIf = "condition"
+
+                    9.2.2 ngFor - syntax: *ngFor = "let iterator-name of array-name"
+
+                9.3 Attribute Directives - to apply style class based on condition
+
+                    9.3.1 In built - ngClass
+
+                    9.3.2 user defined 
+
+            10. Local Storage
+
+                10.1 setItem - to store data in local Storage
+
+                10.2 getItem - to get data from local Storage
+
+                10.3 removeItem - to remove item from local Storage
+
+            11. Angular Pipes - to convert data to another format
+
+            12. Parent Child Communication
+
+                12.1 Parent to Child - Input decorator
+
+                12.2 Child to Parent - Output decorator
+
+            13. Angular Animation
+
+            14. Front end and server integration 
+               
+                14.1 Import HttpClientModule in AppModule
+
+                14.2 HttpClient dependency inject to data service
+
+                14.3 call http request - http-request(url,data)
+
+            15. To handle Asynchronous event - RxJS 
+
+                15.1 Observable 
+                    15.1.1 resolved state - subscribers 
+                    15.1.2 reject state - catch
+
+
+
+
+
+
+
 
             
 
